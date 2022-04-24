@@ -8,7 +8,7 @@ template <typename T> void test_template(T a) {
     std::cout << "template is running" << std::endl;
 }
 
-// 模板的重载
+// 模板的重载,用于无法自动识别的数据类型,如自定义数据类型
 class Person {
   public:
     int m_age;
