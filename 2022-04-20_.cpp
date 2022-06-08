@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 // 类模板的构造函数和成员函数的类外实现
 template <class NameType, class AgeType> class Person {
