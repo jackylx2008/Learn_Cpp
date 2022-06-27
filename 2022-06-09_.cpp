@@ -32,7 +32,7 @@ void test01() {
     // v.resize(10);
     v.resize(10, temp);
 
-    for (std::vector<Person>::iterator i = v.begin(); i != v.end(); i++) {
+    for (std::vector<Person>::const_iterator i = v.begin(); i != v.end(); i++) {
         std::cout << "v[i] = " << (*i).m_name << std::endl;
         std::cout << "v[i] = " << (*i).m_age << std::endl;
     }
