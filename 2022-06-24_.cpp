@@ -25,7 +25,6 @@ bool my_compare(Person &p1, Person &p2) {
         return p1.m_age > p2.m_age;
     else
         return p1.m_age < p2.m_age;
-    ;
 }
 
 void print_list(std::list<Person> &l) {

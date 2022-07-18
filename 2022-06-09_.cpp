@@ -1,6 +1,10 @@
 #include <algorithm>
+#include <cstdlib>
+#include <ctime>
+#include <deque>
 #include <iostream>
 #include <string>
+#include <unistd.h>
 #include <vector>
 
 // 学习STL--3 vector 容器
